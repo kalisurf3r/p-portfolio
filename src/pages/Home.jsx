@@ -6,11 +6,18 @@ export default function Home() {
     const fontStyles = {
         fontFamily: 'Inria Sans, sans-serif',
     };
+
+    const pageStyles = {
+        background: 'linear-gradient(to right top, #090f18, #383a41, #696a6f, #9e9ea1, #d6d6d6)',
+        minHeight: '130vh', // Ensure the background covers the full viewport height
+    };
+ 
     
     return (
 
         
         <>
+        <div className='wrapper' style={pageStyles}>
         <div className='flex flex-col items-center h-screen'  style={fontStyles}>
             <ReactTypingEffect
                 text={[
@@ -44,13 +51,14 @@ export default function Home() {
         </div>
 
 <div className='bio'>
-    <h4 className='text-2xl text-white mt-20'>💻 I like to code on both ends, remember to check out my latest project 🚀</h4>
+    <h4 className='text-2xl text-white mt-20 sm:text-center md:text-center'>💻 I like to code on both ends, remember to check out my latest project 🚀</h4>
 </div>
 
 
 <div className='email'>
 <h2 className='text-2xl text-white mt-20 email-hover'>Email me: ayalaarturo925@gmail.com</h2>
 </div>
+        </div>
         </div>
         </>
     );

@@ -12,7 +12,8 @@ export default function Project() {
     };
 
     const pageStyles = {
-       background: 'linear-gradient(to right top, #090f18, #383a41, #696a6f, #9e9ea1, #d6d6d6)'
+       background: 'linear-gradient(to right top, #090f18, #383a41, #696a6f, #9e9ea1, #d6d6d6)',
+       minHeight: '130vh',
     };
 
     const handleBackBtn = () => {
