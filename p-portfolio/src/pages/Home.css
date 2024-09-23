@@ -1,0 +1,5 @@
+.email-hover:hover {
+    border: 2px dashed  rgb(75 85 99); /* Add a white border on hover */
+    padding: 10px; /* Add padding to make space for the border */
+    border-radius: 5px; /* Optional: Add border radius for rounded corners */
+}
