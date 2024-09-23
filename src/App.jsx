@@ -7,7 +7,7 @@ function App() {
   return (
     <>
   <Navbar  />
-  <main className='bg-primary'>
+  <main >
     <Outlet />
   </main>
     </>
